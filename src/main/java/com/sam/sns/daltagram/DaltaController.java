@@ -13,4 +13,10 @@ public class DaltaController
 	{
 		return "user/join";
 	}
+	
+	@GetMapping("/login-view")
+	public String login()
+	{
+		return "user/login";
+	}
 }

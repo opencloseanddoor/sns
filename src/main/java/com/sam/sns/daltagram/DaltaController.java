@@ -6,17 +6,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/user")
-public class DaltaController 
+public class daltaController 
 {
 	@GetMapping("/join-view")
 	public String join()
 	{
 		return "user/join";
-	}
-	
-	@GetMapping("/login-view")
-	public String login()
-	{
-		return "user/login";
 	}
 }

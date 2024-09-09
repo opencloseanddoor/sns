@@ -1,2 +1,2 @@
-database:
+mysql:
   password: root 

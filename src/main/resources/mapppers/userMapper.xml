@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mappers placename="">
+    
+    <select id="selectUserById" paremeterType="int"
+        resultType="com.sam.daltagram.user.domain.User">
+    </select>
+
+</mappers>
